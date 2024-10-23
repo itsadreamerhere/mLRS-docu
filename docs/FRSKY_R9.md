@@ -24,7 +24,7 @@ The Frsky R9M, R9M Lite Pro transmitter modules and R9 MX, R9 MM, R9 Mini receiv
     </tr>
       <tr>
       <td>Compatibility</td>
-      <td>Compatible with Frsky R9 and ELRS hardware.  Incompatible with SX126x hardware (SeeedStudio Wio-E5, EBYTE E77 MBL, E77 Easy Solder).</td>
+      <td>Compatible with Frsky R9 and ELRS 900 MHz hardware. Incompatible with SX126x/STM32WLE hardware (MatekSys mR900, SeeedStudio Wio-E5, EBYTE E77 MBL, E77 Easy Solder).</td>
     </tr>
   </tbody>
 </table>
@@ -210,6 +210,8 @@ We wish to express our thanks to the folks of the ExpressLRS project, who have w
 
 ### Flash the R9M Module with ELRS Bootloader ###
 
+Note: Even if you have previously flashed the ELRS bootloader, it is recommended that you re-flash the ELRS bootloader using the links below to ensure that you are on the latest version.
+
 You can flash the ELRS bootloader and the mLRS firmware to the R9M module using your radio with OpenTX 2.3.12 or newer or EdgeTX 2.4.0 or newer. This method is especially recommended for new users.
 
 Of course, flashing via ST-Link is also still an option.
@@ -256,6 +258,8 @@ Once the ELRS bootloader is installed, the following precedure can be followed t
 ### Flash R9 Receivers with ELRS Bootloader ###
 
 #### Flash the ELRS Bootloader ####
+
+Note: Even if you have previously flashed the ELRS bootloader, it is recommended that you re-flash the ELRS bootloader using the links below to ensure that you are on the latest version.
 
 Wiring the receiver to the JR Bay on the back of your radio and flashing the ELRS bootloader is documented [here](https://www.expresslrs.org/quick-start/receivers/r9/). The procedure is similar to flashing the R9M module as described above in the bootloader install section. Use the appropriate .frk file indicated in the ELRS instructions for the receiver you are flashing. Flashing the ELRS bootloader from the .frk file only needs to be done once.
 

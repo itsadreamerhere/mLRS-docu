@@ -7,26 +7,31 @@ Documentation for the [mLRS project](https://github.com/olliw42/mLRS).
 ## Content ##
 
 ### General ###
+- [mLRS Overview](https://github.com/olliw42/mLRS/blob/main/README.md)
+- [Quick Start Guide](docs/QUICK_START.md)
 - [Binding](docs/BINDING.md)
 - [Configuration Parameters](docs/PARAMETERS.md)
 - [mLRS Lua Script](docs/LUA.md)
 - [CLI Commands](docs/CLI.md)
 - [Configuration ID](docs/CONFIGID.md)
+- [Flashing/Upgrading Firmware](docs/FLASHING.md)
+- [Troubleshooting](docs/TROUBLE.md)
 
 ### Setups ###
 - [CRSF Telemetry and Yaapu Telemetry App](docs/CRSF.md)
     - [CRSF Sensors](docs/CRSF_SENSORS.md)
 - [SiK Telemetry Replacement](docs/SETUP_SIK.md)
 - [SBus Radios](docs/BASIC_SETUP.md)
-- [mTX (formerly MAVLink for OpenTx)](docs/MTX.md)
 - [Dual Band](docs/DUAL_BAND.md)
 - [Additional Configuration for ArduPilot Systems](docs/ARDUPILOT.md)
+- [INAV/MSP Systems](docs/MSPX.md)
+- [mTX (formerly MAVLink for OpenTx)](docs/MTX.md)
 - [Experimental: Relay](docs/RELAY.md)
 
 ### STM32 Hardware ###
-- [Matek mLRS Hardware](docs/MATEKSYS.md)
-- [FlySky FRM303 Module](docs/FLYSKY_FRM303.md)
+- [MatekSys mLRS Hardware](docs/MATEKSYS.md)
 - [Frsky R9 Devices](docs/FRSKY_R9.md)
+- [FlySky FRM303 Module](docs/FLYSKY_FRM303.md)
 - [SeeedStudio Wio-E5 Boards](docs/SEEEDSTUDIO_WIO_E5.md)
 - [EBYTE E77 MBL Boards](docs/EBYTE_E77_MBL.md)
 - [E77 Easy Solder Boards](docs/E77_EASYSOLDER.md)
